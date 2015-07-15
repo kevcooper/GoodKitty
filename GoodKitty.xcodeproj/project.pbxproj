@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361E4A5F1B56DA29004ED8FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E4A5E1B56DA29004ED8FF /* AppDelegate.swift */; };
+		361E4A611B56DA29004ED8FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361E4A601B56DA29004ED8FF /* Assets.xcassets */; };
+		361E4A6F1B56DA29004ED8FF /* GoodKittyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E4A6E1B56DA29004ED8FF /* GoodKittyTests.swift */; };
+		361E4A7A1B56DA29004ED8FF /* GoodKittyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E4A791B56DA29004ED8FF /* GoodKittyUITests.swift */; };
+		361E4A881B56DAE7004ED8FF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361E4A871B56DAE7004ED8FF /* MainMenu.xib */; };
+		361E4A8C1B56DB44004ED8FF /* status_icon_black.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 361E4A8A1B56DB44004ED8FF /* status_icon_black.pdf */; };
+		361E4A8D1B56DB44004ED8FF /* status_icon_white.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 361E4A8B1B56DB44004ED8FF /* status_icon_white.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		361E4A6B1B56DA29004ED8FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 361E4A531B56DA29004ED8FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361E4A5A1B56DA29004ED8FF;
+			remoteInfo = GoodKitty;
+		};
+		361E4A761B56DA29004ED8FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 361E4A531B56DA29004ED8FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361E4A5A1B56DA29004ED8FF;
+			remoteInfo = GoodKitty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		361E4A5B1B56DA29004ED8FF /* GoodKitty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodKitty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		361E4A5E1B56DA29004ED8FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		361E4A601B56DA29004ED8FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		361E4A651B56DA29004ED8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361E4A6A1B56DA29004ED8FF /* GoodKittyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodKittyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		361E4A6E1B56DA29004ED8FF /* GoodKittyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodKittyTests.swift; sourceTree = "<group>"; };
+		361E4A701B56DA29004ED8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361E4A751B56DA29004ED8FF /* GoodKittyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodKittyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		361E4A791B56DA29004ED8FF /* GoodKittyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodKittyUITests.swift; sourceTree = "<group>"; };
+		361E4A7B1B56DA29004ED8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361E4A871B56DAE7004ED8FF /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		361E4A8A1B56DB44004ED8FF /* status_icon_black.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = status_icon_black.pdf; sourceTree = "<group>"; };
+		361E4A8B1B56DB44004ED8FF /* status_icon_white.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = status_icon_white.pdf; sourceTree = "<group>"; };
+		361E4A8E1B56DBE6004ED8FF /* GoodKitty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GoodKitty.entitlements; sourceTree = "<group>"; };
+		3674B09B1B56E0AE008A580C /* icons.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.sketch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		361E4A581B56DA29004ED8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E4A671B56DA29004ED8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E4A721B56DA29004ED8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		361E4A521B56DA29004ED8FF = {
+			isa = PBXGroup;
+			children = (
+				361E4A5D1B56DA29004ED8FF /* GoodKitty */,
+				361E4A6D1B56DA29004ED8FF /* GoodKittyTests */,
+				361E4A781B56DA29004ED8FF /* GoodKittyUITests */,
+				361E4A5C1B56DA29004ED8FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		361E4A5C1B56DA29004ED8FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361E4A5B1B56DA29004ED8FF /* GoodKitty.app */,
+				361E4A6A1B56DA29004ED8FF /* GoodKittyTests.xctest */,
+				361E4A751B56DA29004ED8FF /* GoodKittyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361E4A5D1B56DA29004ED8FF /* GoodKitty */ = {
+			isa = PBXGroup;
+			children = (
+				361E4A8E1B56DBE6004ED8FF /* GoodKitty.entitlements */,
+				361E4A5E1B56DA29004ED8FF /* AppDelegate.swift */,
+				361E4A871B56DAE7004ED8FF /* MainMenu.xib */,
+				361E4A601B56DA29004ED8FF /* Assets.xcassets */,
+				3674B09B1B56E0AE008A580C /* icons.sketch */,
+				361E4A8A1B56DB44004ED8FF /* status_icon_black.pdf */,
+				361E4A8B1B56DB44004ED8FF /* status_icon_white.pdf */,
+				361E4A651B56DA29004ED8FF /* Info.plist */,
+			);
+			path = GoodKitty;
+			sourceTree = "<group>";
+		};
+		361E4A6D1B56DA29004ED8FF /* GoodKittyTests */ = {
+			isa = PBXGroup;
+			children = (
+				361E4A6E1B56DA29004ED8FF /* GoodKittyTests.swift */,
+				361E4A701B56DA29004ED8FF /* Info.plist */,
+			);
+			path = GoodKittyTests;
+			sourceTree = "<group>";
+		};
+		361E4A781B56DA29004ED8FF /* GoodKittyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				361E4A791B56DA29004ED8FF /* GoodKittyUITests.swift */,
+				361E4A7B1B56DA29004ED8FF /* Info.plist */,
+			);
+			path = GoodKittyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		361E4A5A1B56DA29004ED8FF /* GoodKitty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361E4A7E1B56DA29004ED8FF /* Build configuration list for PBXNativeTarget "GoodKitty" */;
+			buildPhases = (
+				361E4A571B56DA29004ED8FF /* Sources */,
+				361E4A581B56DA29004ED8FF /* Frameworks */,
+				361E4A591B56DA29004ED8FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodKitty;
+			productName = GoodKitty;
+			productReference = 361E4A5B1B56DA29004ED8FF /* GoodKitty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		361E4A691B56DA29004ED8FF /* GoodKittyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361E4A811B56DA29004ED8FF /* Build configuration list for PBXNativeTarget "GoodKittyTests" */;
+			buildPhases = (
+				361E4A661B56DA29004ED8FF /* Sources */,
+				361E4A671B56DA29004ED8FF /* Frameworks */,
+				361E4A681B56DA29004ED8FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361E4A6C1B56DA29004ED8FF /* PBXTargetDependency */,
+			);
+			name = GoodKittyTests;
+			productName = GoodKittyTests;
+			productReference = 361E4A6A1B56DA29004ED8FF /* GoodKittyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		361E4A741B56DA29004ED8FF /* GoodKittyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361E4A841B56DA29004ED8FF /* Build configuration list for PBXNativeTarget "GoodKittyUITests" */;
+			buildPhases = (
+				361E4A711B56DA29004ED8FF /* Sources */,
+				361E4A721B56DA29004ED8FF /* Frameworks */,
+				361E4A731B56DA29004ED8FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361E4A771B56DA29004ED8FF /* PBXTargetDependency */,
+			);
+			name = GoodKittyUITests;
+			productName = GoodKittyUITests;
+			productReference = 361E4A751B56DA29004ED8FF /* GoodKittyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		361E4A531B56DA29004ED8FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Coorpe;
+				TargetAttributes = {
+					361E4A5A1B56DA29004ED8FF = {
+						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					361E4A691B56DA29004ED8FF = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 361E4A5A1B56DA29004ED8FF;
+					};
+					361E4A741B56DA29004ED8FF = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 361E4A5A1B56DA29004ED8FF;
+					};
+				};
+			};
+			buildConfigurationList = 361E4A561B56DA29004ED8FF /* Build configuration list for PBXProject "GoodKitty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 361E4A521B56DA29004ED8FF;
+			productRefGroup = 361E4A5C1B56DA29004ED8FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				361E4A5A1B56DA29004ED8FF /* GoodKitty */,
+				361E4A691B56DA29004ED8FF /* GoodKittyTests */,
+				361E4A741B56DA29004ED8FF /* GoodKittyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		361E4A591B56DA29004ED8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361E4A611B56DA29004ED8FF /* Assets.xcassets in Resources */,
+				361E4A8D1B56DB44004ED8FF /* status_icon_white.pdf in Resources */,
+				361E4A881B56DAE7004ED8FF /* MainMenu.xib in Resources */,
+				361E4A8C1B56DB44004ED8FF /* status_icon_black.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E4A681B56DA29004ED8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E4A731B56DA29004ED8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361E4A571B56DA29004ED8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361E4A5F1B56DA29004ED8FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E4A661B56DA29004ED8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361E4A6F1B56DA29004ED8FF /* GoodKittyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E4A711B56DA29004ED8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361E4A7A1B56DA29004ED8FF /* GoodKittyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		361E4A6C1B56DA29004ED8FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361E4A5A1B56DA29004ED8FF /* GoodKitty */;
+			targetProxy = 361E4A6B1B56DA29004ED8FF /* PBXContainerItemProxy */;
+		};
+		361E4A771B56DA29004ED8FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361E4A5A1B56DA29004ED8FF /* GoodKitty */;
+			targetProxy = 361E4A761B56DA29004ED8FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		361E4A7C1B56DA29004ED8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		361E4A7D1B56DA29004ED8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		361E4A7F1B56DA29004ED8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoodKitty/GoodKitty.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GoodKitty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coorpe.GoodKitty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		361E4A801B56DA29004ED8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoodKitty/GoodKitty.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GoodKitty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coorpe.GoodKitty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		361E4A821B56DA29004ED8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GoodKittyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coorpe.GoodKittyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodKitty.app/Contents/MacOS/GoodKitty";
+			};
+			name = Debug;
+		};
+		361E4A831B56DA29004ED8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GoodKittyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coorpe.GoodKittyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodKitty.app/Contents/MacOS/GoodKitty";
+			};
+			name = Release;
+		};
+		361E4A851B56DA29004ED8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GoodKittyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coorpe.GoodKittyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoodKitty;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		361E4A861B56DA29004ED8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GoodKittyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coorpe.GoodKittyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoodKitty;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		361E4A561B56DA29004ED8FF /* Build configuration list for PBXProject "GoodKitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361E4A7C1B56DA29004ED8FF /* Debug */,
+				361E4A7D1B56DA29004ED8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361E4A7E1B56DA29004ED8FF /* Build configuration list for PBXNativeTarget "GoodKitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361E4A7F1B56DA29004ED8FF /* Debug */,
+				361E4A801B56DA29004ED8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361E4A811B56DA29004ED8FF /* Build configuration list for PBXNativeTarget "GoodKittyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361E4A821B56DA29004ED8FF /* Debug */,
+				361E4A831B56DA29004ED8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361E4A841B56DA29004ED8FF /* Build configuration list for PBXNativeTarget "GoodKittyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361E4A851B56DA29004ED8FF /* Debug */,
+				361E4A861B56DA29004ED8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 361E4A531B56DA29004ED8FF /* Project object */;
+}
