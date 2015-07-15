@@ -31,7 +31,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             }
         }
         
-        statusItem = sysBar.statusItemWithLength(NSVariableStatusItemLength)
+        let VARIABLE_STATUS_LENGTH: CGFloat = -1.0
+        statusItem = sysBar.statusItemWithLength(VARIABLE_STATUS_LENGTH)
         statusItem!.image = statusIcon
         statusItem!.alternateImage = statusIcon
         statusItem!.menu = menu
